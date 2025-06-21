@@ -31,7 +31,7 @@ function closeInfoModal() {
             />
 
             <a
-              href="/sreyneang"
+              href="/"
               class="text-white font-semibold text-xl tracking-wide hidden sm:inline"
             >
               Souvenir shop
@@ -62,7 +62,7 @@ function closeInfoModal() {
               Clothes
             </RouterLink>
             <RouterLink
-              to="/"
+              to="/contact"
               class="px-4 py-2 text-white text-base font-medium hover:bg-blue-700 rounded-lg transition duration-200"
               active-class="bg-yellow-400 text-black"
             >

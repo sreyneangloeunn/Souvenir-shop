@@ -9,8 +9,8 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'Contact',
-      component: ContactView,
+      name: 'Sreyneang',
+      component: SreyneangView,
     },
     {
       path: '/clothes',
@@ -23,9 +23,9 @@ const router = createRouter({
       component: RingView,
     },
      {
-    path: '/sreyneang',
-    name: 'Sreyneang',
-    component: SreyneangView,
+    path: '/contact',
+    name: 'Contact',
+    component: ContactView,
   },
     {
       path: '/flower',
