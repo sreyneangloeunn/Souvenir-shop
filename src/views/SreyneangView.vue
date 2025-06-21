@@ -91,7 +91,7 @@ import List from '@/components/List.vue';
       <h2 class="text-2xl font-bold mb-4">Ready to take home a piece of Cambodia?</h2>
       <p class="mb-6">Shop now and discover unique gifts and souvenirs that bring joy and culture together.</p>
       <RouterLink
-        to="/brahok"
+        to="/flower"
         class="inline-block bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg hover:bg-yellow-300 transition"
       >
         Browse Products
