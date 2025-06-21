@@ -62,7 +62,7 @@ function closeInfoModal() {
               Clothes
             </RouterLink>
             <RouterLink
-              to="/contact"
+              to="/"
               class="px-4 py-2 text-white text-base font-medium hover:bg-blue-700 rounded-lg transition duration-200"
               active-class="bg-yellow-400 text-black"
             >
