@@ -1,30 +1,26 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '@/views/GrabView.vue'
-import ServiceView from '@/views/BananaView.vue'
-import ContactView from '@/views/MichhaView.vue'
-import BananaView from '@/views/BananaView.vue'
-import BrahokView from '../views/BrahokView.vue'
-import GrabView from '@/views/GrabView.vue'
-import MichhaView from '@/views/MichhaView.vue'
+import ContactView from '@/views/ContactView.vue'
 import SreyneangView from '@/views/SreyneangView.vue'
+import RingView from '@/views/RingView.vue'
+import ClothView from '@/views/ClothView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/grab',
-      name: 'Grab',
-      component: GrabView,
+      path: '/contact',
+      name: 'Contact',
+      component: ContactView,
     },
     {
-      path: '/banana',
-      name: 'Banana',
-      component: BananaView,
+      path: '/clothes',
+      name: 'Clothes',
+      component: ClothView,
     },
     {
-      path: '/michha',
-      name: 'Michha',
-      component: MichhaView,
+      path: '/ring',
+      name: 'Ring',
+      component: RingView,
     },
      {
     path: '/sreyneang',
@@ -32,12 +28,12 @@ const router = createRouter({
     component: SreyneangView,
   },
     {
-      path: '/brahok',
-      name: 'Brahok',
+      path: '/flower',
+      name: 'Flower',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/BrahokView.vue'),
+      component: () => import('../views/FlowerView.vue'),
     },
   ],
 })
