@@ -18,7 +18,7 @@ import List from '@/components/List.vue';
     <!-- Owner Section -->
     <section class="flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8 bg-white rounded-lg shadow-md max-w-3xl mx-auto my-10">
       <img
-        src="../../public/IMG_6123.JPG"
+        src="../../public/image/IMG_6123.JPG"
         alt="Owner Sreyneang"
         class="w-48 h-48 rounded-full object-cover shadow-lg mb-4"
       />
